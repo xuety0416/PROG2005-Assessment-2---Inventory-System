@@ -1,0 +1,16 @@
+.privacy-page h2 {
+  color: #005fcc;
+  margin-bottom: 20px;
+}
+
+.section {
+  background: #e6f4ff;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.section h4 {
+  color: #005fcc;
+  margin-bottom: 6px;
+}

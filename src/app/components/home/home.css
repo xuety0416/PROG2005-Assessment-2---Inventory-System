@@ -1,0 +1,46 @@
+.home {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home h1 {
+  font-size: 28px;
+  color: #005fcc;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 220px;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card.blue { background: #e6f4ff; }
+.card.green { background: #e6ffed; }
+.card.orange { background: #fff4e6; }
+.card.purple { background: #f0e6ff; }
+
+.footer-note {
+  margin-top: 40px;
+  color: #777;
+  font-size: 14px;
+}
