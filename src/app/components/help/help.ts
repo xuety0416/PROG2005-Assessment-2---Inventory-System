@@ -4,6 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-help',
   standalone: false,
   templateUrl: './help.html',
-  styleUrl: './help.css',
+  styleUrl: './help.css'
 })
-export class Help {}
+export class Help {
+  constructor() { }
+}
